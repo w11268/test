@@ -1,0 +1,17 @@
+#忽略所有.text结尾文件
+*.text
+
+#但不忽略readme.text文件
+!readme.text
+
+#只忽略当前目录下的TODO文件，而不忽略 其他目录下的TODO文件
+/TODO
+
+# 忽略所有build文件夹
+build/
+
+# 忽略doc目录下所有以.txt结尾的文件 不包含子目录中的.txt文件
+doc/*.txt
+
+# 忽略doc目录及其子目录下的.pdf文件
+doc/**/*.pdf
